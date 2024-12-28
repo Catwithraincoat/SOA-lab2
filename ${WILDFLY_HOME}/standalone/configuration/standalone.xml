@@ -1,0 +1,27 @@
+<interfaces>
+    <interface name="public">
+        <inet-address value="${jboss.bind.address:0.0.0.0}"/>
+    </interface>
+</interfaces>
+
+<subsystem xmlns="urn:jboss:domain:undertow:XX.X">
+    <server name="default-server">
+        <http-listener name="default" socket-binding="http" redirect-socket="https" enable-http2="true"/>
+        <https-listener name="https" socket-binding="https" security-realm="ApplicationRealm" enable-http2="true"/>
+    </server>
+</subsystem>
+
+<security-realms>
+    <security-realm name="ApplicationRealm">
+        <server-identities>
+            <ssl>
+                <keystore path="server.keystore" relative-to="jboss.server.config.dir" keystore-password="password" alias="server" key-password="password"/>
+            </ssl>
+        </server-identities>
+    </security-realm>
+</security-realms>
+
+<socket-binding-group name="standard-sockets" default-interface="public" port-offset="${jboss.socket.binding.port-offset:0}">
+    <socket-binding name="http" port="${jboss.http.port:8080}"/>
+    <socket-binding name="https" port="${jboss.https.port:8443}"/>
+</socket-binding-group> 
