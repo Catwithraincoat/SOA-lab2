@@ -1,0 +1,16 @@
+/home/kitokato/SOA/first_service/src/main/java/com/example/filter/SimpleCORSFilter.java
+/home/kitokato/SOA/first_service/src/main/java/com/example/model/Coordinates.java
+/home/kitokato/SOA/first_service/src/main/java/com/example/model/MovieGenre.java
+/home/kitokato/SOA/first_service/src/main/java/com/example/exception/NotFoundExceptionMapper.java
+/home/kitokato/SOA/first_service/src/main/java/com/example/model/Movie.java
+/home/kitokato/SOA/first_service/src/main/java/com/example/model/Location.java
+/home/kitokato/SOA/first_service/src/main/java/com/example/resource/MovieResource.java
+/home/kitokato/SOA/first_service/src/main/java/com/example/filter/FilterOperator.java
+/home/kitokato/SOA/first_service/src/main/java/com/example/service/PersonService.java
+/home/kitokato/SOA/first_service/src/main/java/com/example/model/MpaaRating.java
+/home/kitokato/SOA/first_service/src/main/java/com/example/exception/JsonbExceptionMapper.java
+/home/kitokato/SOA/first_service/src/main/java/com/example/resource/EnumResource.java
+/home/kitokato/SOA/first_service/src/main/java/com/example/exception/ValidationExceptionMapper.java
+/home/kitokato/SOA/first_service/src/main/java/com/example/model/Person.java
+/home/kitokato/SOA/first_service/src/main/java/com/example/config/JaxRsApplication.java
+/home/kitokato/SOA/first_service/src/main/java/com/example/filter/FilterCriteria.java

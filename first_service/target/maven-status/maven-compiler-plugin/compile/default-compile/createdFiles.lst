@@ -1,0 +1,17 @@
+com/example/filter/SimpleCORSFilter.class
+com/example/resource/MovieResource.class
+com/example/exception/ValidationExceptionMapper.class
+com/example/exception/JsonbExceptionMapper.class
+com/example/service/PersonService.class
+com/example/model/Coordinates.class
+com/example/config/JaxRsApplication.class
+com/example/resource/MovieResource$1.class
+com/example/exception/NotFoundExceptionMapper.class
+com/example/model/MovieGenre.class
+com/example/filter/FilterOperator.class
+com/example/resource/EnumResource.class
+com/example/model/Movie.class
+com/example/model/Person.class
+com/example/model/MpaaRating.class
+com/example/filter/FilterCriteria.class
+com/example/model/Location.class

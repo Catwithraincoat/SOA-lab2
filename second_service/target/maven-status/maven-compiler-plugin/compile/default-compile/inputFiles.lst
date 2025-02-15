@@ -1,0 +1,11 @@
+/home/kitokato/SOA/first_service/second_service/src/main/java/com/example/resource/CatchAllResource.java
+/home/kitokato/SOA/first_service/second_service/src/main/java/com/example/model/MpaaRating.java
+/home/kitokato/SOA/first_service/second_service/src/main/java/com/example/resource/OscarResource.java
+/home/kitokato/SOA/first_service/second_service/src/main/java/com/example/model/Location.java
+/home/kitokato/SOA/first_service/second_service/src/main/java/com/example/model/Movie.java
+/home/kitokato/SOA/first_service/second_service/src/main/java/com/example/filter/CORSFilter.java
+/home/kitokato/SOA/first_service/second_service/src/main/java/com/example/service/FirstServiceClient.java
+/home/kitokato/SOA/first_service/second_service/src/main/java/com/example/config/JaxRsApplication.java
+/home/kitokato/SOA/first_service/second_service/src/main/java/com/example/model/Coordinates.java
+/home/kitokato/SOA/first_service/second_service/src/main/java/com/example/model/Person.java
+/home/kitokato/SOA/first_service/second_service/src/main/java/com/example/model/MovieGenre.java
